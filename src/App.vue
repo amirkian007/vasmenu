@@ -11,10 +11,10 @@
         color="info"
         @click="collapsed = !collapsed"
       >
-        <i class="material-icons-outlined">menu</i>
+        <i class="material-icons">menu</i>
       </v-btn>
       <v-btn variant="outlined" icon color="success" @click="min = !min">
-        <i class="material-icons-outlined">{{
+        <i class="material-icons">{{
           min ? "arrow_forward" : "arrow_back"
         }}</i>
       </v-btn>
@@ -29,7 +29,7 @@
           hide-details
         >
           <template v-slot:label>
-            <span class="material-icons-round">dark_mode</span>
+            <span class="material-icons">dark_mode</span>
           </template>
         </v-switch>
         <v-switch
@@ -113,9 +113,6 @@ export default {
         }, 0);
       });
     },
-    collapsed(val) {
-      console.log("heslo", val);
-    },
     people(val) {
       if (val) {
         const el = document.getElementById("whiteLink");
@@ -160,12 +157,12 @@ export default {
       {
         name: "Installation",
         href: "/",
-        icon: { class: "material-icons-outlined", text: "download" },
+        icon: { class: "material-icons", text: "download" },
       },
       {
         name: "Getting started",
         href: "/getting-started",
-        icon: { class: "material-icons-outlined", text: "code" },
+        icon: { class: "material-icons", text: "code" },
       },
       {
         header: "Api",
@@ -174,32 +171,32 @@ export default {
       {
         name: "Props",
         href: "/props",
-        icon: { class: "material-icons-outlined", text: "settings_suggested" },
+        icon: { class: "material-icons", text: "settings_suggested" },
       },
 
       {
         name: "Events",
         href: "/events",
-        icon: { class: "material-icons-outlined", text: "event" },
+        icon: { class: "material-icons", text: "event" },
       },
       {
         name: "Slots",
         href: "/slots",
-        icon: { class: "material-icons-outlined", text: "settings_ethernet" },
+        icon: { class: "material-icons", text: "settings_ethernet" },
       },
       {
         name: "Styling",
-        icon: { class: "material-icons-outlined", text: "color_lens" },
+        icon: { class: "material-icons", text: "color_lens" },
         children: [
           {
             name: "Sass Vars",
             href: { path: "/styles", hash: "#sass-varibles" },
-            icon: { class: "material-icons-outlined", text: "colorize" },
+            icon: { class: "material-icons", text: "colorize" },
           },
           {
             name: "Css",
             href: { path: "/styles", hash: "#css-class" },
-            icon: { class: "material-icons-outlined", text: "css" },
+            icon: { class: "material-icons", text: "css" },
           },
         ],
       },
@@ -208,19 +205,19 @@ export default {
       },
       {
         name: "example 1",
-        icon: { class: "material-icons-outlined", text: "cable" },
+        icon: { class: "material-icons", text: "cable" },
         children: [
           {
             name: "level 2.1",
-            icon: { class: "material-icons-outlined", text: "raw_on" },
+            icon: { class: "material-icons", text: "raw_on" },
             children: [
               {
                 name: "level 2.1",
-                icon: { class: "material-icons-outlined", text: "raw_on" },
+                icon: { class: "material-icons", text: "raw_on" },
               },
               {
                 name: "level 2.2",
-                icon: { class: "material-icons-outlined", text: "raw_on" },
+                icon: { class: "material-icons", text: "raw_on" },
               },
               {
                 name: "level 2.3",
@@ -229,26 +226,26 @@ export default {
           },
           {
             name: "level 2.2",
-            icon: { class: "material-icons-outlined", text: "raw_on" },
+            icon: { class: "material-icons", text: "raw_on" },
             children: [
               {
                 name: "level 2.1",
-                icon: { class: "material-icons-outlined", text: "raw_on" },
+                icon: { class: "material-icons", text: "raw_on" },
               },
               {
                 name: "level 2.2",
-                icon: { class: "material-icons-outlined", text: "raw_on" },
+                icon: { class: "material-icons", text: "raw_on" },
               },
               {
                 name: "level 2.3",
                 children: [
                   {
                     name: "level 2.1",
-                    icon: { class: "material-icons-outlined", text: "raw_on" },
+                    icon: { class: "material-icons", text: "raw_on" },
                   },
                   {
                     name: "level 2.2",
-                    icon: { class: "material-icons-outlined", text: "raw_on" },
+                    icon: { class: "material-icons", text: "raw_on" },
                   },
                   {
                     name: "level 2.3",

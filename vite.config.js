@@ -8,7 +8,7 @@ import vuetify from 'vite-plugin-vuetify'
 export default defineConfig({
   plugins: [
 		vue(),
-		vuetify(),
+		vuetify({defaultAssets:false}),
 	],
 	server:{
 		port:4744
