@@ -1,0 +1,11 @@
+article{
+    padding: 20px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box>* {
+    flex: 1 1 100px !important;
+
+}
