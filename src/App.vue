@@ -15,7 +15,7 @@
       </v-btn>
       <v-btn variant="outlined" icon color="success" @click="min = !min">
         <i class="material-icons">{{
-          !min ? "arrow_forward" : "arrow_back"
+          min ? "arrow_forward" : "arrow_back"
         }}</i>
       </v-btn>
 
