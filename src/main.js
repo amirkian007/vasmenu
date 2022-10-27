@@ -6,7 +6,7 @@ import 'vue-awesome-sidebar/dist/vue-awesome-siderbar.css'
 
 import './style.scss'
 import './custom.scss'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const GettingStarted = () => import('./components/GettingStarted.vue')
 const Installation = () => import('./components/Installation.vue')
@@ -27,8 +27,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  strict: true,
-  history: createWebHistory('/vasmenu/'),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     return { top: 0 ,behavior: 'smooth',}

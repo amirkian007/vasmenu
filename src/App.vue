@@ -36,7 +36,7 @@
           inset
           v-model="people1"
           color="primary"
-          class="ml-4"
+          class="ml-1"
           label="Full"
           hide-details
         ></v-switch>

@@ -1,4 +1,4 @@
-import{_ as s,c as a,o as p,a as n}from"./index.666f6796.js";const l={},e={class:"markdown-body"},c=n(`<h1><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1><pre><code>npm i vue-awesome-sidebar --save
+import{_ as s,c as a,o as p,a as n}from"./index.06586bb0.js";const l={},e={class:"markdown-body"},c=n(`<h1><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1><pre><code>npm i vue-awesome-sidebar --save
 //or
 yarn i vue-awesome-sidebar --save
 </code></pre><p>Install the component globally.</p><p>Vue js 3:</p><div class="highlight highlight-source-js"><pre><span class="pl-c">//main.js</span>
