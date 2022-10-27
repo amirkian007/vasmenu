@@ -15,7 +15,7 @@
       </v-btn>
       <v-btn variant="outlined" icon color="success" @click="min = !min">
         <i class="material-icons">{{
-          min ? "arrow_forward" : "arrow_back"
+          !min ? "arrow_forward" : "arrow_back"
         }}</i>
       </v-btn>
 
@@ -24,7 +24,7 @@
           inset
           v-model="people"
           color="primary"
-          class="ml-5"
+          class="ml-1"
           style="padding-inline-start: 0px"
           hide-details
         >
@@ -37,7 +37,7 @@
           v-model="people1"
           color="primary"
           class="ml-4"
-          label="Full Type"
+          label="Full"
           hide-details
         ></v-switch>
       </v-btn-toggle>
