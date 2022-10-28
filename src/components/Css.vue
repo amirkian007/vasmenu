@@ -30,6 +30,10 @@
 <span class="pl-c"><span class="pl-c">//</span>container</span>
 <span class="pl-e">.items-container</span>{}
 <span class="pl-e">.topContainer</span>{}</pre></div>
+<h2><a id="user-content-author" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+<p><a href="https://github.com/amirkian007">Amir Kian Adl</a></p>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+<p><a href="http://opensource.org/licenses/MIT" rel="nofollow">The MIT License</a></p>
 
 </article>
 </template>

@@ -1,7 +1,7 @@
 ## Styling
 
 ### Sass varibles
-to use sass varibles import the sass file insted of css, then import custom varibles.
+to use sass varibles import the SCSS file insted of Css, then import custom varibles,
 example:
 ```scss
 //style.scss
@@ -14,7 +14,7 @@ import vueAwesomeSidebar from 'vue-awesome-sidebar'
 //import 'vue-awesome-sidebar/dist/vue-awesome-sidebar.css'
 import './style.scss'
 ```
-varibles:
+Sass varibles:
 ```scss
 //z-index of the menu components rage form 848-854
 

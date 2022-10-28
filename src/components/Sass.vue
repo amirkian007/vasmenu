@@ -2,7 +2,7 @@
 <article class="markdown-body">
 <h2><a id="user-content-styling" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Styling</h2>
 <h3><a id="user-content-sass-varibles" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass varibles</h3>
-<p>to use sass varibles import the sass file insted of css, then import custom varibles.
+<p>to use sass varibles import the SCSS file insted of Css, then import custom varibles,
 example:</p>
 <div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>style.scss</span>
 <span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">"</span>custom-var.scss<span class="pl-pds">"</span></span>;
@@ -11,7 +11,7 @@ example:</p>
 <span class="pl-k">import</span> <span class="pl-s1">vueAwesomeSidebar</span> <span class="pl-k">from</span> <span class="pl-s">'vue-awesome-sidebar'</span>
 <span class="pl-c">//import 'vue-awesome-sidebar/dist/vue-awesome-sidebar.css'</span>
 <span class="pl-k">import</span> <span class="pl-s">'./style.scss'</span></pre></div>
-<p>varibles:</p>
+<p>Sass varibles:</p>
 <div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>z-index of the menu components rage form 848-854</span>
 
 <span class="pl-c"><span class="pl-c">//</span>&lt;--BASE--&gt;</span>

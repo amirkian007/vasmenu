@@ -100,11 +100,3 @@ $bottomBtn-bg-color-white: white; -dark: #13161b;
 .items-container{}
 .topContainer{}
 ```
-
-## Author
-
-[Amir Kian Adl](https://github.com/amirkian007)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)

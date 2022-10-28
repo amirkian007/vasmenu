@@ -32,3 +32,11 @@
 .items-container{}
 .topContainer{}
 ```
+
+## Author
+
+[Amir Kian Adl](https://github.com/amirkian007)
+
+## License
+
+[The MIT License](http://opensource.org/licenses/MIT)

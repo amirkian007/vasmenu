@@ -29,13 +29,13 @@
 <td>collapsed</td>
 <td align="center">Boolean</td>
 <td align="center">false</td>
-<td align="left">sets menus collapsed state should be used with v-model</td>
+<td align="left">sets menus collapsed state - should be used with v-model</td>
 </tr>
 <tr>
 <td>miniMenu</td>
 <td align="center">boolean</td>
 <td align="center">false</td>
-<td align="left">makes manu mini - should be used with v-model</td>
+<td align="left">sets mini menus state - should be used with v-model</td>
 </tr>
 <tr>
 <td>width</td>
@@ -53,19 +53,19 @@
 <td>autoCollapse</td>
 <td align="center">number</td>
 <td align="center">null</td>
-<td align="left">adds event listner to collapse menu when the given value((in px) is lower than the viewport width</td>
+<td align="left">adds event listner to collapse menu when the given value(in px) is lower than the viewport width</td>
 </tr>
 <tr>
 <td>closeOnClickOutSide</td>
 <td align="center">Boolean</td>
 <td align="center">false</td>
-<td align="left">Adds event listner to collapse Menu when clicked outside the menu</td>
+<td align="left">Adds event listner to collapse Menu when outside is clicked</td>
 </tr>
 <tr>
 <td>overLayerOnOpen</td>
 <td align="center">Boolean</td>
 <td align="center">false</td>
-<td align="left">Adds overlayer under the Menu when the menu is open</td>
+<td align="left">Adds overlayer under the Menu when the menu is open - usefull on mobile</td>
 </tr>
 <tr>
 <td>childrenOpenAnimation</td>
@@ -89,19 +89,19 @@
 <td>ChildrenOpenActiveRoute</td>
 <td align="center">Boolean</td>
 <td align="center">true</td>
-<td align="left">opens meneitem children on page load if an item with active "href" inside and miniActive class is apllyed</td>
+<td align="left">opens meneitem children on page-load if an item with active "href" inside and miniActive class is applied</td>
 </tr>
 <tr>
 <td>checkButtonActive</td>
 <td align="center">Boolean</td>
 <td align="center">true</td>
-<td align="left">checks if menuitems href is active, if so activeClass is  added to it and miniActive class to the parent</td>
+<td align="left">checks if menuitems href is active, if so activeClass is added to it and miniActive class to the parent</td>
 </tr>
 <tr>
 <td>vueRouterEnabel</td>
 <td align="center">Boolean</td>
 <td align="center">true</td>
-<td align="left">when a meueitem is clicked vue-router will bue pushed to the items "href" property</td>
+<td align="left">when a meueitem is clicked vue-router will pushe the route to the items "href" property</td>
 </tr>
 <tr>
 <td>BottomMiniMenuBtn</td>
@@ -119,7 +119,7 @@
 <td>dark</td>
 <td align="center">Boolean</td>
 <td align="center">false</td>
-<td align="left">makes the theme of menu dark - color can be custimuzed with sass vars</td>
+<td align="left">makes the theme of menu dark - color can be customized with sass vars</td>
 </tr>
 <tr>
 <td>rtl</td>
@@ -143,7 +143,7 @@
   <span class="pl-c1">icon</span>?: <span class="pl-smi">ItemIcon</span>
   <span class="pl-c1">children</span>?: <span class="pl-smi">Array</span><span class="pl-kos">&lt;</span> <span class="pl-smi">MenuItem</span> <span class="pl-c1">|</span> <span class="pl-smi">SidebarHeaderItem</span> <span class="pl-kos">&gt;</span>
   <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>
-  <span class="pl-c1">collapseOnClick</span>?: <span class="pl-smi">boolean</span> <span class="pl-c">//collapses menu when clicked</span>
+  <span class="pl-c1">collapseOnClick</span>?: <span class="pl-smi">boolean</span> <span class="pl-c">//collapses menu when clicked - this behavior can also be achieved with Events</span>
   <span class="pl-c1">activeClass</span>?: <span class="pl-smi">boolean</span>
   <span class="pl-c1">miniActiveClass</span>?: <span class="pl-smi">boolean</span>
 <span class="pl-kos">}</span>

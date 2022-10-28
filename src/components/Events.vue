@@ -15,11 +15,11 @@
 </tr>
 <tr>
 <td><code>@update:collapsed(isCollapsed)</code></td>
-<td align="left">fired when menu is collapsed - should be used with "v-model"</td>
+<td align="left">fired when menu collapse state changes - should be used with "v-model"</td>
 </tr>
 <tr>
 <td><code>@update:miniMenu(isMiniMenu)</code></td>
-<td align="left">fired when menu is in mini state - should be used with "v-model"</td>
+<td align="left">fired when mini menu state changes - should be used with "v-model"</td>
 </tr>
 </tbody>
 </table>
