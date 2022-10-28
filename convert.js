@@ -3,7 +3,7 @@ var fs = require('fs');
 const { Octokit, App } = require("octokit");
 //let filename = "README.md"
 const fileNames=['Installation','GettingStarted','Props','Events','Slots','Styles']
-const personalToken = ''
+const personalToken = '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'
 if(!personalToken)throw(new Error('Need a github personal token'))
 // let pageTitle = process.argv[2] || ""
 
@@ -12,7 +12,7 @@ const octokit = new Octokit({
   })
 
 fileNames.forEach(fileName=>{
-     fs.readFile(process.cwd() + '/docs/' + fileName + '.md', function (err, data) {
+     fs.readFile(process.cwd() + '/marks/' + fileName + '.md', function (err, data) {
       if (err) {
         throw err; 
       }

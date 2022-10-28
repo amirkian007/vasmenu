@@ -65,19 +65,19 @@
 <td>overLayerOnOpen</td>
 <td align="center">Boolean</td>
 <td align="center">false</td>
-<td align="left">Adds overlayer under the Menu with the menu is open</td>
+<td align="left">Adds overlayer under the Menu when the menu is open</td>
 </tr>
 <tr>
 <td>childrenOpenAnimation</td>
 <td align="center">Boolean</td>
 <td align="center">true</td>
-<td align="left">opens menu item children with animation</td>
+<td align="left">opens menu items children with animation</td>
 </tr>
 <tr>
 <td>keepChildrenOpen</td>
 <td align="center">Boolean</td>
 <td align="center">flase</td>
-<td align="left">keeps opened children items opened when parent item is closed</td>
+<td align="left">keeps children items opened when parent item is closed</td>
 </tr>
 <tr>
 <td>position</td>
@@ -129,7 +129,7 @@
 </tr>
 </tbody>
 </table>
-<h3><a id="user-content-menu-properties" class="anchor" aria-hidden="true" href="#menu-properties"><span aria-hidden="true" class="octicon octicon-link"></span></a>menu-properties</h3>
+<p><a href="#menu-properties"><strong><em>#kir</em></strong></a></p>
 <div class="highlight highlight-source-ts"><pre><span class="pl-k">interface</span> <span class="pl-smi">MenuItemIcon</span> <span class="pl-kos">{</span>
   <span class="pl-c1">text</span>: <span class="pl-smi">string</span>
   <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>

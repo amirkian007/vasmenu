@@ -135,6 +135,7 @@ export default {
     },
     checkHash() {
       if (window.location?.hash) {
+        console.log(window.location?.hash)
         const el = document.getElementById(
           `user-content-${window.location.hash.substring(1)}`
         );
