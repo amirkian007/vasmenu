@@ -1,9 +1,9 @@
 var fs = require('fs');
-const fileNames=['intro','Installation','GettingStarted','Props','Events','Slots','Styles']
+const fileNames=['intro','Installation','GettingStarted','Props','Events','Sass','Css']
 let memory = new Map()
 
 fileNames.forEach(async (fileName)=>{
-    await fs.readFile(process.cwd() + '/docs/' + fileName + '.md', function (err, data) {
+    await fs.readFile(process.cwd() + '/marks/' + fileName + '.md', function (err, data) {
       if (err) {
         throw err; 
       }

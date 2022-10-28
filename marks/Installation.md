@@ -2,7 +2,9 @@
 
 ```
 npm i vue-awesome-sidebar --save
-//or
+```
+or
+```
 yarn i vue-awesome-sidebar --save
 ```
 
