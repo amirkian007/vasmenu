@@ -305,7 +305,7 @@ main {
 }
 .hreffss{
   text-decoration: none;
-  color: rgb(23, 23, 168) !important;
+  color: #0550ad !important;
   cursor:pointer;
 }
 </style>

@@ -16,7 +16,7 @@
 <td>menu</td>
 <td align="center">Array</td>
 <td align="center">null</td>
-<td align="left">required - Array list of <a ><strong><em>item properties</em></strong></a>
+<td align="left">required - Array list of <a @click="click" class="hreffss"><strong><em>Menu properties</em></strong></a>
 </td>
 </tr>
 <tr>
@@ -163,3 +163,19 @@
 
 </article>
 </template>
+<script>
+export default {
+  methods: {
+    click(){
+   document.getElementById(
+          `user-content-menu-properties`
+        ).scrollIntoView({  behavior: 'smooth' })
+    }
+  },
+}
+</script>
+<style scoped>
+#user-content-menu-properties {
+  scroll-margin: 75px;
+}
+</style>
