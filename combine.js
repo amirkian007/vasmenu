@@ -1,5 +1,5 @@
 var fs = require('fs');
-const fileNames=['intro','Installation','GettingStarted','Props','Events','Sass','Css']
+const fileNames=['intro','Installation','GettingStarted','Props','Events','Slots','Sass','Css']
 let memory = new Map()
 
 fileNames.forEach(async (fileName)=>{
