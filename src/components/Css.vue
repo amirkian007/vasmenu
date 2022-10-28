@@ -17,7 +17,7 @@
 }<span class="pl-c"><span class="pl-c">//</span>apllayed to all menuitem</span>
 <span class="pl-e">.menuExpanded</span>{}
 <span class="pl-e">.label</span>{
-  <span class="pl-e">.menu-icondd</span>{}
+  <span class="pl-e">.menu-icond</span>{}
   <span class="pl-e">.labelName</span>{}
   <span class="pl-e">.icons</span>{}
   <span class="pl-e">.postIconOpenAnima</span>{}

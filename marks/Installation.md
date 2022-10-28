@@ -5,7 +5,7 @@ npm i vue-awesome-sidebar --save
 ```
 or
 ```
-yarn i vue-awesome-sidebar --save
+yarn add vue-awesome-sidebar --save
 ```
 
 Install the component globally.

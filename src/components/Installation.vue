@@ -2,8 +2,9 @@
 <article class="markdown-body">
 <h1><a id="user-content-installation" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
 <pre><code>npm i vue-awesome-sidebar --save
-//or
-yarn i vue-awesome-sidebar --save
+</code></pre>
+<p>or</p>
+<pre><code>yarn add vue-awesome-sidebar --save
 </code></pre>
 <p>Install the component globally.</p>
 <p>Vue js 3:</p>

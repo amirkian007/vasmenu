@@ -18,7 +18,7 @@
 }//apllayed to all menuitem
 .menuExpanded{}
 .label{
-  .menu-icondd{}
+  .menu-icond{}
   .labelName{}
   .icons{}
   .postIconOpenAnima{}
