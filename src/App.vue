@@ -141,7 +141,6 @@ export default {
         }else if(window.location?.hash === `#/styles#sass-varibles`){
           x = 'sass-varibles'
         }
-        console.log( `user-content-${x}`)
         const el = document.getElementById(
           `user-content-${x}`
         );
