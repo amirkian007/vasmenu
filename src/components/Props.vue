@@ -1,7 +1,7 @@
 <template>
 <article class="markdown-body">
-<h2><a id="user-content-api" class="anchor" aria-hidden="true" href="#api"><span aria-hidden="true" class="octicon octicon-link"></span></a>Api</h2>
-<h3><a id="user-content-props" class="anchor" aria-hidden="true" href="#props"><span aria-hidden="true" class="octicon octicon-link"></span></a>Props</h3>
+<h2><a id="user-content-api" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Api</h2>
+<h3><a id="user-content-props" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Props</h3>
 <table>
 <thead>
 <tr>
@@ -16,7 +16,7 @@
 <td>menu</td>
 <td align="center">Array</td>
 <td align="center">null</td>
-<td align="left">required - Array list of <a href="#menu-properties"><strong><em>item properties</em></strong></a>
+<td align="left">required - Array list of <a ><strong><em>item properties</em></strong></a>
 </td>
 </tr>
 <tr>
@@ -129,7 +129,7 @@
 </tr>
 </tbody>
 </table>
-<p><a href="#menu-properties"><strong><em>#kir</em></strong></a></p>
+<h3><a id="user-content-menu-properties" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>menu properties</h3>
 <div class="highlight highlight-source-ts"><pre><span class="pl-k">interface</span> <span class="pl-smi">MenuItemIcon</span> <span class="pl-kos">{</span>
   <span class="pl-c1">text</span>: <span class="pl-smi">string</span>
   <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>

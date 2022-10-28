@@ -1,6 +1,6 @@
 <template>
 <article class="markdown-body">
-<h3><a id="user-content-events" class="anchor" aria-hidden="true" href="#events"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
+<h3><a id="user-content-events" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
 <table>
 <thead>
 <tr>

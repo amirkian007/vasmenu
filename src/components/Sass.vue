@@ -1,13 +1,27 @@
 <template>
 <article class="markdown-body">
-<h3><a id="user-content-sass-varibles" class="anchor" aria-hidden="true" href="#sass-varibles"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass varibles</h3>
-<div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>&lt;--BASE--&gt;</span>
+<h2><a id="user-content-styling" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Styling</h2>
+<h3><a id="user-content-sass-varibles" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass varibles</h3>
+<p>to use sass varibles import the sass file insted of css, then import custom varibles.
+example:</p>
+<div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>style.scss</span>
+<span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">"</span>custom-var.scss<span class="pl-pds">"</span></span>;
+<span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">"</span>vue-awesome-sidebar/src/scss/vue-awesome-sidebar.scss<span class="pl-pds">"</span></span>;</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-c">//main.js</span>
+<span class="pl-k">import</span> <span class="pl-s1">vueAwesomeSidebar</span> <span class="pl-k">from</span> <span class="pl-s">'vue-awesome-sidebar'</span>
+<span class="pl-c">//import 'vue-awesome-sidebar/dist/vue-awesome-sidebar.css'</span>
+<span class="pl-k">import</span> <span class="pl-s">'./style.scss'</span></pre></div>
+<p>varibles:</p>
+<div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>z-index of the menu components rage form 848-854</span>
+
+<span class="pl-c"><span class="pl-c">//</span>&lt;--BASE--&gt;</span>
 <span class="pl-v">$overlayer-bg-color</span>: <span class="pl-c1">rgba</span>(<span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0.6</span>);
 <span class="pl-v">$toggle-mini-btn-height</span>: <span class="pl-c1">50<span class="pl-k">px</span></span>;
 <span class="pl-v">$menu-item-simpleType-icon-height</span>: <span class="pl-c1">35<span class="pl-k">px</span></span>;
 <span class="pl-v">$menu-item-fullyType-height</span>: <span class="pl-c1">44<span class="pl-k">px</span></span>;
 <span class="pl-v">$label-font-size</span>: <span class="pl-c1">16<span class="pl-k">px</span></span>;<span class="pl-c"><span class="pl-c">//</span>may not work with slots</span>
 <span class="pl-v">$label-icon-size</span>: <span class="pl-c1">20<span class="pl-k">px</span></span>;<span class="pl-c"><span class="pl-c">//</span>may not work with slots</span>
+<span class="pl-v">$scroll-bar-width</span>: <span class="pl-c1">13<span class="pl-k">px</span></span>;
 
 <span class="pl-c"><span class="pl-c">//</span>&lt;--COLORS--&gt;</span>
 <span class="pl-c"><span class="pl-c">//</span>NOTE : the "-white" at the end of each var defines the theme, you can change it to "-dark" to set it for dark mode theme</span>

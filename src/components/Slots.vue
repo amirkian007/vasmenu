@@ -1,6 +1,6 @@
 <template>
 <article class="markdown-body">
-<h3><a id="user-content-slots" class="anchor" aria-hidden="true" href="#slots"><span aria-hidden="true" class="octicon octicon-link"></span></a>Slots</h3>
+<h3><a id="user-content-slots" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Slots</h3>
 <div class="highlight highlight-text-html-basic"><pre><span class="pl-c">&lt;!--menu items Append icon--&gt;</span>
 <span class="pl-kos">&lt;</span><span class="pl-ent">template</span> <span class="pl-c1">#itemApendIcon</span>="<span class="pl-s">{ icon,isChildrenMenuOpen, active,miniActive }</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">template</span><span class="pl-kos">&gt;</span>
 <span class="pl-c">&lt;!--menu items label --&gt;</span>

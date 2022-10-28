@@ -1,6 +1,6 @@
 <template>
 <article class="markdown-body">
-<h3><a id="user-content-css-class" class="anchor" aria-hidden="true" href="#css-class"><span aria-hidden="true" class="octicon octicon-link"></span></a>Css class</h3>
+<h3><a id="user-content-css-class" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Css class</h3>
 <div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>menu</span>
 <span class="pl-e">.vas-menu</span>{}
 <span class="pl-e">.menu-wraper</span>{}<span class="pl-c"><span class="pl-c">//</span>menu scroll wrapper</span>

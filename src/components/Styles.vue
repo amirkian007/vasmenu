@@ -1,7 +1,7 @@
 <template>
 <article class="markdown-body">
-<h2><a id="user-content-styling" class="anchor" aria-hidden="true" href="#styling"><span aria-hidden="true" class="octicon octicon-link"></span></a>Styling</h2>
-<h3><a id="user-content-sass-varibles" class="anchor" aria-hidden="true" href="#sass-varibles"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass varibles</h3>
+<h2><a id="user-content-styling" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Styling</h2>
+<h3><a id="user-content-sass-varibles" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass varibles</h3>
 <p>to use sass varibles import the sass file insted of css, then import custom varibles.
 example:</p>
 <div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>style.scss</span>
@@ -61,7 +61,7 @@ example:</p>
 
 <span class="pl-c"><span class="pl-c">//</span>bottomBtn for miniMenu</span>
 <span class="pl-v">$bottomBtn-bg-color-white</span>: <span class="pl-c1">white</span>; -dark: #13161b;</pre></div>
-<h3><a id="user-content-css" class="anchor" aria-hidden="true" href="#css"><span aria-hidden="true" class="octicon octicon-link"></span></a>Css</h3>
+<h3><a id="user-content-css-class" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Css class</h3>
 <div class="highlight highlight-source-css-scss"><pre><span class="pl-c"><span class="pl-c">//</span>menu</span>
 <span class="pl-e">.vas-menu</span>{}
 <span class="pl-e">.menu-wraper</span>{}<span class="pl-c"><span class="pl-c">//</span>menu scroll wrapper</span>
@@ -91,9 +91,9 @@ example:</p>
 <span class="pl-c"><span class="pl-c">//</span>container</span>
 <span class="pl-e">.items-container</span>{}
 <span class="pl-e">.topContainer</span>{}</pre></div>
-<h2><a id="user-content-author" class="anchor" aria-hidden="true" href="#author"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+<h2><a id="user-content-author" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
 <p><a href="https://github.com/amirkian007">Amir Kian Adl</a></p>
-<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
 <p><a href="http://opensource.org/licenses/MIT" rel="nofollow">The MIT License</a></p>
 
 </article>

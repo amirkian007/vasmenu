@@ -135,12 +135,19 @@ export default {
     },
     checkHash() {
       if (window.location?.hash) {
-        console.log(window.location?.hash)
+        let x = ""
+        if(window.location?.hash === `#/styles#css-class`){
+          x = 'css-class'
+        }else if(window.location?.hash === `#/styles#sass-varibles`){
+          x = 'sass-varibles'
+        }
+        console.log( `user-content-${x}`)
         const el = document.getElementById(
-          `user-content-${window.location.hash.substring(1)}`
+          `user-content-${x}`
         );
+        console.log(el)
         if (el) {
-          el.scrollIntoView();
+          el.scrollIntoView({ behavior: 'smooth' });
         }
       }
     },
@@ -192,12 +199,12 @@ export default {
         children: [
           {
             name: "Sass Vars",
-            href: { path: "/styles", hash: "#sass-varibles" },
+            href: { path: "/styles/sass"},
             icon: { class: "material-icons", text: "colorize" },
           },
           {
             name: "Css",
-            href: { path: "/styles", hash: "#css-class" },
+            href: { path: "/styles/css"},
             icon: { class: "material-icons", text: "css" },
           },
         ],
