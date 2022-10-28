@@ -8,12 +8,12 @@ import './style.scss'
 import './custom.scss'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-const GettingStarted = () => import('./components/GettingStarted.vue')
-const Installation = () => import('./components/Installation.vue')
-const Props = () => import('./components/Props.vue')
-const Events = () => import('./components/Events.vue')
-const Slots = () => import('./components/Slots.vue')
-const Styles = () => import('./components/Styles.vue')
+import GettingStarted from './components/GettingStarted.vue'
+import Installation from './components/Installation.vue'
+import Props from './components/Props.vue'
+import Events from './components/Events.vue'
+import Slots from './components/Slots.vue'
+import Styles from './components/Styles.vue'
 
 //console.log(vueAwesomeSidebar)
 
