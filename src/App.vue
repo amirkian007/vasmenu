@@ -303,5 +303,9 @@ main {
 .bgDark {
   background-color: #0d1117 !important;
 }
-
+.hreffss{
+  text-decoration: none;
+  color: rgb(23, 23, 168) !important;
+  cursor:pointer;
+}
 </style>
