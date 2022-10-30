@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import vueAwesomeSidebar from 'vue-awesome-sidebar'
-import 'vue-awesome-sidebar/dist/vue-awesome-siderbar.css'
+// import 'vue-awesome-sidebar/dist/vue-awesome-siderbar.css'
 
 import './style.scss'
 import './custom.scss'

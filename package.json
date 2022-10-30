@@ -19,7 +19,7 @@
     "sass": "^1.55.0",
     "showdown": "^2.1.0",
     "vue": "^3.2.37",
-    "vue-awesome-sidebar": "^1.1.5",
+    "vue-awesome-sidebar": "^1.1.7",
     "vue-router": "^4.1.5",
     "vuetify": "npm:@vuetify/nightly@^3.0.0-next-20221027.0",
     "webfontloader": "^1.0.0"
