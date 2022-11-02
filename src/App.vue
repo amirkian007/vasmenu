@@ -11,10 +11,10 @@
         color="info"
         @click="collapsed = !collapsed"
       >
-        <i class="material-icons">menu</i>
+        <i aria-hidden="true" class="material-icons">menu</i>
       </v-btn>
       <v-btn variant="outlined" icon color="success" @click="min = !min">
-        <i class="material-icons">{{
+        <i aria-hidden="true" class="material-icons">{{
           min ? "arrow_forward" : "arrow_back"
         }}</i>
       </v-btn>
@@ -29,7 +29,7 @@
           hide-details
         >
           <template v-slot:label>
-            <span class="material-icons">dark_mode</span>
+            <span aria-hidden="true" class="material-icons">dark_mode</span>
           </template>
         </v-switch>
         <v-switch
