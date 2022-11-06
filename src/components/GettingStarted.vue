@@ -3,6 +3,7 @@
 <h1><a id="user-content-basic-usage" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic Usage</h1>
 <p>a simple example would be like this :
 check out <a @click="$router.push('/props')" class="hreffss"><strong><em>props</em></strong></a> for properites</p>
+<p>NOTE : <ins>you have to load the icons separately</ins> like loading material-icons files with cdn</p>
 <div class="highlight highlight-text-html-basic"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">template</span><span class="pl-kos">&gt;</span>
   <span class="pl-kos">&lt;</span><span class="pl-ent">VueAwesomeSideBar</span>
       <span class="pl-c1">v-model:miniMenu</span>="<span class="pl-s">miniMenu</span>"

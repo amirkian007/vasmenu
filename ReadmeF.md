@@ -4,7 +4,7 @@
 <img src="https://github.com/amirkian007/vue-awesome-sidebar/blob/main/assets/demo.gif" alt="vue-wesome-sidebar">
 
 ## About
-Vue Awesome Sidbar is a powerfull, fast and light vue js(3x) sidbar navigation library with a set of components and slots that are flexible, very lightweight and customizable with sass and css which is very easy to use.
+Vue Awesome Sidbar is a powerfull, fast vue js(3x) sidbar navigation library with a set of components and slots that are flexible and customizable using sass and css which is very easy to use.
 
 ## Demo
 Check out Live demo at [**_amirkian007.github.io/vasmenu_**](https://amirkian007.github.io/vasmenu/)
@@ -82,6 +82,9 @@ export default {
 
 a simple example would be like this : 
 check out [**_props_**](#props) for properites
+
+NOTE : <ins>you have to load the icons separately</ins> like loading material-icons files with cdn
+
 ```html
 
 <template>
@@ -170,22 +173,22 @@ const testMenu = [
 ### menu properties
 
 ```ts
+interface MenuItem {
+  href: string | object // vue-router Object
+  name: string
+  icon?: MenuItemIcon
+  children?: Array< MenuItem | MenuHeaderItem >
+  class?: string
+  collapseOnClick?: boolean //collapses menu when clicked - this behavior can also be achieved with Events
+  activeClass?: boolean
+  miniActiveClass?: boolean
+}
+
 interface MenuItemIcon {
   text: string
   class?: string
   element?: string //defualt is <i>
   attributes?: object
-}
-
-interface MenuItem {
-  href: string | object // vue-router Object
-  name: string
-  icon?: ItemIcon
-  children?: Array< MenuItem | SidebarHeaderItem >
-  class?: string
-  collapseOnClick?: boolean //collapses menu when clicked - this behavior can also be achieved with Events
-  activeClass?: boolean
-  miniActiveClass?: boolean
 }
 
 interface MenuHeaderItem {
@@ -332,10 +335,14 @@ $bottomBtn-bg-color-white: white; -dark: #13161b;
 .topContainer{}
 ```
 
-## Author
+## Contributing
 
-[Amir Kian Adl](https://github.com/amirkian007)
+``` bash
+$ pnpm i
+# dev server
+$ pnpm run dev
+```
 
 ## License
 
-[The MIT License](http://opensource.org/licenses/MIT)
+vue-awesome-sidebar is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

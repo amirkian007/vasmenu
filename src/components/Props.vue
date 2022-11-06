@@ -130,22 +130,22 @@
 </tbody>
 </table>
 <h3><a id="user-content-menu-properties" class="anchor" aria-hidden="true" ><span aria-hidden="true" class="octicon octicon-link"></span></a>menu properties</h3>
-<div class="highlight highlight-source-ts"><pre><span class="pl-k">interface</span> <span class="pl-smi">MenuItemIcon</span> <span class="pl-kos">{</span>
-  <span class="pl-c1">text</span>: <span class="pl-smi">string</span>
-  <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>
-  <span class="pl-c1">element</span>?: <span class="pl-smi">string</span> <span class="pl-c">//defualt is &lt;i&gt;</span>
-  <span class="pl-c1">attributes</span>?: <span class="pl-smi">object</span>
-<span class="pl-kos">}</span>
-
-<span class="pl-k">interface</span> <span class="pl-smi">MenuItem</span> <span class="pl-kos">{</span>
+<div class="highlight highlight-source-ts"><pre><span class="pl-k">interface</span> <span class="pl-smi">MenuItem</span> <span class="pl-kos">{</span>
   <span class="pl-c1">href</span>: <span class="pl-smi">string</span> <span class="pl-c1">|</span> <span class="pl-smi">object</span> <span class="pl-c">// vue-router Object</span>
   <span class="pl-c1">name</span>: <span class="pl-smi">string</span>
-  <span class="pl-c1">icon</span>?: <span class="pl-smi">ItemIcon</span>
-  <span class="pl-c1">children</span>?: <span class="pl-smi">Array</span><span class="pl-kos">&lt;</span> <span class="pl-smi">MenuItem</span> <span class="pl-c1">|</span> <span class="pl-smi">SidebarHeaderItem</span> <span class="pl-kos">&gt;</span>
+  <span class="pl-c1">icon</span>?: <span class="pl-smi">MenuItemIcon</span>
+  <span class="pl-c1">children</span>?: <span class="pl-smi">Array</span><span class="pl-kos">&lt;</span> <span class="pl-smi">MenuItem</span> <span class="pl-c1">|</span> <span class="pl-smi">MenuHeaderItem</span> <span class="pl-kos">&gt;</span>
   <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>
   <span class="pl-c1">collapseOnClick</span>?: <span class="pl-smi">boolean</span> <span class="pl-c">//collapses menu when clicked - this behavior can also be achieved with Events</span>
   <span class="pl-c1">activeClass</span>?: <span class="pl-smi">boolean</span>
   <span class="pl-c1">miniActiveClass</span>?: <span class="pl-smi">boolean</span>
+<span class="pl-kos">}</span>
+
+<span class="pl-k">interface</span> <span class="pl-smi">MenuItemIcon</span> <span class="pl-kos">{</span>
+  <span class="pl-c1">text</span>: <span class="pl-smi">string</span>
+  <span class="pl-c1">class</span>?: <span class="pl-smi">string</span>
+  <span class="pl-c1">element</span>?: <span class="pl-smi">string</span> <span class="pl-c">//defualt is &lt;i&gt;</span>
+  <span class="pl-c1">attributes</span>?: <span class="pl-smi">object</span>
 <span class="pl-kos">}</span>
 
 <span class="pl-k">interface</span> <span class="pl-smi">MenuHeaderItem</span> <span class="pl-kos">{</span>
