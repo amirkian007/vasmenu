@@ -2,6 +2,9 @@
 
 a simple example would be like this : 
 check out [**_props_**](#props) for properites
+
+NOTE : <ins>you have to load the icons separately</ins> like loading material-icons files with cdn
+
 ```html
 
 <template>
