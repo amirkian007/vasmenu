@@ -1,5 +1,5 @@
 <template>
-  <v-app :class="{ bgDark: darkMode ,'white-theme':!darkMode }">
+  <v-app :class="{ bgDark: darkMode ,'whitee-theme':!darkMode }">
     <v-app-bar
       :elevation="3"
       :theme="darkMode ? 'dark' : 'white'"
